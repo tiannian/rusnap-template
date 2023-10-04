@@ -1,0 +1,8 @@
+[snap]
+name = "{{project-name}}"
+description = "Metamask Snap using Rusnap"
+icon = "icon.svg"
+registry = "https://registry.npmjs.org/"
+
+[[permissions]]
+permission = "dialog"
