@@ -15,26 +15,14 @@
 [Learn more about `cargo generate` here.](https://github.com/ashleygwilliams/cargo-generate)
 
 ```
-cargo generate --git https://github.com/rustwasm/wasm-pack-template.git --name my-project
+cargo generate --git https://github.com/tiannian/rusnap-template.git --name my-project
 cd my-project
 ```
 
-### 🛠️ Build with `wasm-pack build`
+### 🛠️ Build
 
 ```
-wasm-pack build
-```
-
-### 🔬 Test in Headless Browsers with `wasm-pack test`
-
-```
-wasm-pack test --headless --firefox
-```
-
-### 🎁 Publish to NPM with `wasm-pack publish`
-
-```
-wasm-pack publish
+cargo rusnap build
 ```
 
 ## 🔋 Batteries Included
