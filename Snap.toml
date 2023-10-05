@@ -6,3 +6,8 @@ registry = "https://registry.npmjs.org/"
 
 [[permissions]]
 permission = "dialog"
+
+[[permission]]
+permission = "rpc"
+dapps = true
+snaps = true
