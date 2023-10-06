@@ -1,13 +1,5 @@
-mod utils;
+rusnap::entry!({
+    use log::Level;
 
-use wasm_bindgen::prelude::*;
-
-#[wasm_bindgen]
-extern "C" {
-    fn alert(s: &str);
-}
-
-#[wasm_bindgen]
-pub fn greet() {
-    alert("Hello, {{project-name}}!");
-}
+    console_log::init_with_level(Level::Debug).expect("Failed to init log");
+});
