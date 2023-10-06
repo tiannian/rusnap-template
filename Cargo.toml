@@ -9,7 +9,6 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 rusnap = "0.1.0"
-console_log = "1.0.0"
 
 [build-dependencies]
 rusnap-build = "0.1"
