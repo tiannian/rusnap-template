@@ -1,1 +1,4 @@
-rusnap::entry!({});
+async fn main() {
+}
+
+rusnap::entry!(main);
