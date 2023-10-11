@@ -6,7 +6,6 @@ registry = "https://registry.npmjs.org/"
 
 [permissions]
 rpc = { dapps = true, snaps = true }
-
 # dialog = {}
 # entropy = {}
 # manage_accounts = {}
@@ -22,6 +21,10 @@ rpc = { dapps = true, snaps = true }
 #
 # [[permissions.bip32_entropy]]
 # path = "m/44'/2'"
+# curve = "secp256k1"
+#
+# [[permissions.bip32_public_key]]
+# path = "m/44'/3'"
 # curve = "secp256k1"
 #
 # [[permissions.bip44_entropy]]
