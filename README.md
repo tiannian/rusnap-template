@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1><code>rusnap-template</code></h1>
+  <h1><code>{{project-name}}</code></h1>
 
 <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
 
